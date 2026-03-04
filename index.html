@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOIK PRO</title>
+    <style>
+        /* Базовые стили (CSS) */
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; color: #333; line-height: 1.6; }
+        header { background: #35424a; color: white; padding: 1rem 0; text-align: center; }
+        nav { background: #e8491d; color: white; padding: 0.5rem; text-align: center; }
+        nav a { color: white; margin: 0 10px; text-decoration: none; }
+        .container { width: 80%; margin: auto; overflow: hidden; padding: 20px 0; }
+        #showcase { background: #f4f4f4; text-align: center; padding: 50px 0; }
+        #showcase h1 { margin-top: 0; }
+        .services { display: flex; justify-content: space-between; }
+        .box { background: #f9f9f9; padding: 20px; width: 30%; text-align: center; border: 1px solid #ddd; }
+        footer { background: #35424a; color: white; text-align: center; padding: 15px; margin-top: 20px; }
+        /* Адаптивность для мобильных */
+        @media(max-width: 768px) { .services { flex-direction: column; } .box { width: 100%; margin-bottom: 10px; } }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>LOIKOV PROJECT</h1>
+    </header>
+
+    <nav>
+        <a href="#">Главная</a>
+        <a href="#">Услуги</a>
+        <a href="#">Контакты</a>
+    </nav>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Добро пожаловать на сайт Loikov Project</h1>
+            <p>это мой первый официальный сайт</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <section id="about">
+            <h2>о нас</h2>
+            <p>я начинающий web-разработчик могу помочь вам в создании интернет магазини</p>
+        </section>
+
+
+        <section class="services">
+            <div class="box">
+                <h3>Услуга 1</h3>
+                <p>Разработка сайтов и веб-приложений (под ключ)</p>
+            </div>
+            <div class="box">
+                <h3>Услуга 2</h3>
+                <p>Дизайн и прототипирование (UI/UX)</p>
+            </div>
+            <div class="box">
+                <h3>Услуга 3</h3>
+                <p>Техническая поддержка и оптимизация</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>наши контакты: 8 938 540 18 76</p>
+        <p>loik company, &copy; 2026</p>
+    </footer>
+
+</body>
+</html>
